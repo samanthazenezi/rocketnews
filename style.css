@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+body {
+    background-color: #121214;
+}
+.logo {
+    width: 389px;
+    height: 94px;
+    padding: 30px;
+}
+.image {
+    width: 1200px;
+    height: 1000px;
+    float: right;
+}
+.meio {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text1 {
+    color: #08C05E;
+    font-size: 35px;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-top: 92px;
+}
+.text2 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+.text3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.submeio{
+    margin-top: 40px;
+
+}
+.seila {
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.text4 {
+    color: #A8A8A8;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 30px;
+}
+.email {
+    background-color: #FFFFFF;
+    width: 750px;
+    height: 48px;
+    margin-left: 30px;
+    border: none;
+    border-left: 7px solid #08C05E;
+}
+::placeholder {
+    color: #6A6A6A;
+    padding: 10px;
+    font-size: 14px;
+}
+.botao {
+    background-color: #8257E5;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+.fim {
+    margin-left: 30px;
+    margin-top: 200px;
+    display: flex;
+}
+.text5 {
+    color: #8257E5;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 20px;
+}
